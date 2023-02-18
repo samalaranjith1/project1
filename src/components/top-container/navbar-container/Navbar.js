@@ -41,7 +41,7 @@ function Navbar() {
             <Link to="/services">Services</Link>
           </li>
           <li>
-            <Link to="/contactus">Contac tUs</Link>
+            <Link to="/contactus">Contact Us</Link>
           </li>
           <li>
             <Link to="/helpline">HelpLine</Link>
