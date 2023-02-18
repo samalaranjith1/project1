@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+ import './App.css';
+import Container from './components/top-container/logo-container/Container';
+import Navbar from './components/top-container/navbar-container/Navbar';
+import Tagline from './components/top-container/scrolling-container/Tagline';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      Happy Birthday master
+      <Container />
+      <Tagline /> 
+      <Navbar />
+      
     </div>
   );
 }
 
 export default App;
+
+
